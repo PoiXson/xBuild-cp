@@ -10,5 +10,5 @@ require(__DIR__.'/../pxnloader.php');
 // uncomment to force debug mode
 //debug(TRUE);
 
-\pxn\xBuild\xBuildCP::register();
-\pxn\xBuild\xBuildShell::register();
+$app = \pxn\xBuild\xBuildCP::register();
+$app = \pxn\xBuild\xBuildShell::register();
