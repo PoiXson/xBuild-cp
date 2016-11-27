@@ -11,4 +11,5 @@ require(__DIR__.'/../pxnloader.php');
 //debug(TRUE);
 
 $app = \pxn\xBuild\xBuildCP::register();
+$app->setDefaultPage('dash');
 $app = \pxn\xBuild\xBuildShell::register();
