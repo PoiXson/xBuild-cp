@@ -31,7 +31,6 @@
 		]
 	},
 	"require": {
-		"php":                "5.6.*",
 		"pxn/phpPortal":      "0.1.*",
 		"twig/twig":          "v1.24.*",
 		"components/jquery":  "2.2.*",
