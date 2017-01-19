@@ -32,8 +32,8 @@
 	},
 	"require": {
 		"pxn/phpPortal":      "0.1.5",
-		"twig/twig":          "v1.24.*",
-		"components/jquery":  "2.2.*",
+		"twig/twig":          "v1.*",
+		"components/jquery":  "3.1.*",
 		"twbs/bootstrap":     "v3.3.*"
 	},
 	"require-dev": {
