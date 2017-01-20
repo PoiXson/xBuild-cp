@@ -10,6 +10,9 @@ require(__DIR__.'/../pxnloader.php');
 // uncomment to force debug mode
 //debug(TRUE);
 
+// xbuild website
 $app = \pxn\xBuild\xBuildCP::register();
 $app->setDefaultPage('dash');
+
+// xbuild shell tools
 $app = \pxn\xBuild\xBuildShell::register();
